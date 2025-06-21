@@ -1,0 +1,41 @@
+
+.page {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.header {
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: red; */
+    /* padding: 0 100px; */
+    position: relative;
+}
+
+.header nav {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    /* background-color: red; */
+    width: 100%;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.header nav img {
+    width: 250px;
+}
+
+.header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.header nav ul li {
+    cursor: pointer;
+}
