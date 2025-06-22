@@ -64,3 +64,49 @@
     width: 200px;
     cursor: pointer;
 }
+
+
+.about_us_container {
+    padding: 0 12rem;
+}
+
+
+.about_us_container h3{
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.about_contents {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 2rem;
+}
+
+.about_vid {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_pic{
+    width: 100%;
+    position: relative;
+    background-blend-mode: darken;
+}
+
+.youtube_icon {
+    width: 60px;
+    position: absolute;
+}
+
+.about_contents p{
+    padding-right: 5rem;
+    font-weight: 300;
+}
+
+.about_contents p span{
+    color: rgba(1, 90, 255, 0.877);
+    font-weight: 600;
+}

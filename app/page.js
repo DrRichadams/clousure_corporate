@@ -38,6 +38,22 @@ export default function Home() {
               ))}
             </div>
         </div>
+        <div className={styles.about_us_container}>
+          <h3>About Us</h3>
+          <div className={styles.about_contents}>
+            <p>
+              At <span>Closure Corporate Wear</span>, we specialize in designing and supplying high-quality, professional apparel that empowers businesses to present a polished, unified image. From tailored suits to branded uniforms, our garments are crafted with precision, durability, and style in mind.
+              <br /><br />
+              We understand that what your team wears speaks volumes about your brand. That’s why we work closely with each client to deliver corporate wear solutions that reflect their identity, values, and industry standards.
+              <br /><br />
+              Whether you’re outfitting a small team or an entire workforce, Closure Corporate Wear is your trusted partner in professional presentation.
+            </p>
+            <div className={styles.about_vid}>
+                <img src="/assets/banner2.png" className={styles.about_pic} />
+                <img src="/assets/youtube.png" className={styles.youtube_icon} />
+            </div>
+          </div>
+        </div>
       </main>
     </div>
   );
