@@ -1,6 +1,8 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Testimonials from "./components/testimonials";
+import Portifolio from "./components/portifolio";
+import Link from "next/link";
 
 export default function Home() {
   const partners = [ "cp.png", "gd.png", "md.png", "tmf.png", "tv.png" ]
@@ -8,17 +10,11 @@ export default function Home() {
     <div className={styles.page}>
       <header className={styles.header}>
         <nav>
-          {/* <Image 
-            src="/assets/corporate-logo.png"
-            width={0} // required fallback
-            height={0} // required fallback
-            style={{ width: '1rem', height: 'auto' }}
-          /> */}
           <img src="/assets/corporate-logo.png" />
           <ul className={styles.nav_menus}>
-            <li>Portifolio</li>
-            <li>About Us</li>
-            <li>Contact Us</li>
+            <li><Link href="#portifolio">Portifolio</Link></li>
+            <li><Link href="#about_us">About Us</Link></li>
+            <li><Link href="#contact_us">Contact Us</Link></li>
           </ul>
         </nav>
         <Image 
@@ -38,7 +34,7 @@ export default function Home() {
               ))}
             </div>
         </div>
-        <div className={styles.about_us_container}>
+        <div className={styles.about_us_container} id="about_us">
           <h3>About Us</h3>
           <div className={styles.about_contents}>
             <p>
@@ -54,7 +50,15 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <Portifolio />
       </main>
+      <footer className={styles.footer} id="contact_us">
+        <h3>Contact Us</h3>
+        <p>Have a question or need a quote? We’re here to help. Get in touch with Closure Corporate Wear today and let’s dress your team for success.</p>
+        <p>Location: 201 Samora Machel Ave, Eastlea, Harare, Zimbabwe</p>
+        <p>Email: closurecooperatewear@gmail.com</p>
+        <p>Phone: +263 77 963 4319</p>
+      </footer>
     </div>
   );
 }

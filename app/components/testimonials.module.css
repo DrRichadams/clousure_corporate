@@ -33,3 +33,12 @@
     height: 3px;
     background-color: gray;
 }
+
+
+@media (max-width: 660px) {
+    .main {
+        min-height: 80vh;
+        padding: 10rem 1rem;
+        text-align: center;
+    }
+}
