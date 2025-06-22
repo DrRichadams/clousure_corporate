@@ -1,0 +1,35 @@
+.main {
+    min-height: 100vh;
+    padding: 10rem 5rem;
+    text-align: center;
+}
+
+.main_title {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+
+.slider {
+    padding: 4rem;
+}
+
+.testi_name {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: rgba(11, 173, 11, 0.729);
+}
+
+.testi_catch {
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+
+.testi_name div{
+    width: 30px;
+    height: 3px;
+    background-color: gray;
+}

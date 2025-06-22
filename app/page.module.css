@@ -39,3 +39,28 @@
 .header nav ul li {
     cursor: pointer;
 }
+
+.partners_container {
+    min-height: 100vh;
+    text-align: center;
+}
+
+.partners_container h3{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+
+.partners_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    /* place-content: center; */
+    /* background-color: red; */
+    padding: 0 15rem
+}
+
+.partners_list img {
+    width: 200px;
+    cursor: pointer;
+}
