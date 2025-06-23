@@ -31,3 +31,25 @@
 .portifolio img {
     width: 100%;
 }
+
+
+@media (max-width: 1210px) {
+    .portifolio_container {
+        padding: 6rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .portifolio_title {
+        font-size: 3rem;
+    }
+    .port_details h4{
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .portifolio_title {
+        font-size: 2rem;
+    }
+}
