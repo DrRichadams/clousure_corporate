@@ -48,8 +48,24 @@
     }
 }
 
+@media (max-width: 890px) {
+    .portifolio_container {
+        padding: 2rem;
+    }
+}
+
 @media (max-width: 800px) {
     .portifolio_title {
         font-size: 2rem;
+    }
+}
+
+@media (max-width: 690px) {
+    .portifolio_container {
+        padding: 1rem;
+    }
+    .portifolio {
+        grid-template-columns: 1fr;
+        /* background-color: red;c */
     }
 }
