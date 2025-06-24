@@ -17,12 +17,15 @@ export default function Home() {
             <li><Link href="#contact_us">Contact Us</Link></li>
           </ul>
         </nav>
-        <Image 
+        {/* <Image 
           src="/assets/banner.png" 
           alt="Banner" 
-          fill
-          style={{ objectFit: 'contain' }}
-        />
+          // fill
+          style={{ 
+            // objectFit: 'contain'
+            maxWidth: '100%'
+           }}
+        /> */}
       </header>
       <main>
         <Testimonials />

@@ -5,10 +5,13 @@
 }
 
 .header {
-    width: 100%;
+    /* width: 100%;
     min-height: 100vh;
-    /* background-color: red; */
-    /* padding: 0 100px; */
+    position: relative; */
+
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background: url('/assets/banner.png') center/cover no-repeat;
     position: relative;
 }
 
