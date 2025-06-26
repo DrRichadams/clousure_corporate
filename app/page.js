@@ -3,30 +3,23 @@ import styles from "./page.module.css";
 import Testimonials from "./components/testimonials";
 import Portifolio from "./components/portifolio";
 import Link from "next/link";
+import NavBar from "./components/nav";
 
 export default function Home() {
   const partners = [ "cp.png", "gd.png", "md.png", "tmf.png", "tv.png" ]
   return (
     <div className={styles.page}>
-      <header className={styles.header}>
-        <nav>
-          <img src="/assets/corporate-logo.png" />
-          <ul className={styles.nav_menus}>
-            <li><Link href="#portifolio">Portifolio</Link></li>
-            <li><Link href="#about_us">About Us</Link></li>
-            <li><Link href="#contact_us">Contact Us</Link></li>
-          </ul>
-        </nav>
-        {/* <Image 
+      <NavBar />
+      {/* <header className={styles.header}>
+        <Image 
           src="/assets/banner.png" 
           alt="Banner" 
-          // fill
+          fill
           style={{ 
-            // objectFit: 'contain'
-            maxWidth: '100%'
+            objectFit: 'contain'
            }}
-        /> */}
-      </header>
+        />
+      </header> */}
       <main>
         <Testimonials />
         <div className={styles.partners_container}>

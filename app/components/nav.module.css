@@ -1,0 +1,51 @@
+.nav {
+    /* position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+    gap: 5rem; */
+    /* display: flex;
+    padding: 0 100px;
+    
+    align-items: center;
+
+    top: 0;
+    width: 100%; */
+
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 8px;
+    /* background-color: red; */
+    max-width: 490px;
+    width: 100%;
+    border-radius: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem 0 1.5rem;
+
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* Optional border */
+    z-index: 1000;
+}
+
+.nav img {
+    width: 140px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav ul li {
+    cursor: pointer;
+}
