@@ -1,7 +1,9 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --nav_bar_clearance: 8rem
+  --nav_bar_clearance: 8rem;
+  --banner_circle1: 1000px;
+  --banner_circle2: 500px;
 }
 
 html,

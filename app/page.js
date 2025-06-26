@@ -4,6 +4,7 @@ import Testimonials from "./components/testimonials";
 import Portifolio from "./components/portifolio";
 import Link from "next/link";
 import NavBar from "./components/nav";
+import Banner from "./components/banner";
 
 export default function Home() {
   const partners = [ "cp.png", "gd.png", "md.png", "tmf.png", "tv.png" ]
@@ -20,6 +21,7 @@ export default function Home() {
            }}
         />
       </header> */}
+      <Banner />
       <main>
         <Testimonials />
         <div className={styles.partners_container}>
