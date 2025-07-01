@@ -5,6 +5,7 @@ import Portifolio from "./components/portifolio";
 import Link from "next/link";
 import NavBar from "./components/nav";
 import Banner from "./components/banner";
+import Footer from "./components/footer";
 
 export default function Home() {
   const partners = [ "cp.png", "gd.png", "md.png", "tmf.png", "tv.png" ]
@@ -50,13 +51,7 @@ export default function Home() {
         </div>
         <Portifolio />
       </main>
-      <footer className={styles.footer} id="contact_us">
-        <h3>Contact Us</h3>
-        <p>Have a question or need a quote? We’re here to help. Get in touch with Closure Corporate Wear today and let’s dress your team for success.</p>
-        <p>Location: 201 Samora Machel Ave, Eastlea, Harare, Zimbabwe</p>
-        <p>Email: closurecooperatewear@gmail.com</p>
-        <p>Phone: +263 77 963 4319</p>
-      </footer>
+      <Footer />
     </div>
   );
 }

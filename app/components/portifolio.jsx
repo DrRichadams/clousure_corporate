@@ -1,6 +1,6 @@
 import styles from "./portifolio.module.css";
 
-const Portifolio = () => {
+export default function Portifolio () {
     const portifolio = [
         { id: 1, title: "Conquer the cold weather in style", img: "/assets/vest.png", descr: "Don’t let low temperatures compromise your look. Our premium corporate wear jackets are designed to keep you warm while maintaining a polished, professional appearance. Whether you're heading to the office or meeting clients on the move, stay comfortable and stylish with jackets that blend functionality with corporate elegance." },
         { id: 2, title: "Comfort Meets Professional Style", img: "/assets/shirt.png", descr: "Our corporate wear round neck shirts are the perfect blend of simplicity, comfort, and brand-ready professionalism. Designed for everyday wear, they offer a clean, modern look that’s ideal for team branding, staff uniforms, or corporate events. Whether in the office or out in the field, make a lasting impression with quality shirts that speak for your brand." },
@@ -22,5 +22,3 @@ const Portifolio = () => {
     </div>
   )
 }
-
-export default Portifolio

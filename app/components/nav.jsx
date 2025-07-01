@@ -8,7 +8,7 @@ import { MdOutlineClose } from "react-icons/md";
 
 import { useState } from "react";
 
-const NavBar = () => {
+export default function NavBar() {
   const [ mNavOpen, set_mNavOpen ] = useState(false)
   return (
     <>
@@ -35,4 +35,3 @@ const NavBar = () => {
   )
 }
 
-export default NavBar
